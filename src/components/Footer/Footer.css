@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://use.typekit.net/bqo2bdj.css");
+.footer{
+    width:100%;
+    height:100%;
+    background: #14AEB8;
+    font-family:'Poppins';
+    display: grid;
+}
+.footercontent{
+    width:100%;
+    display:flex;
+}
+.info{
+    width:50%;
+    padding-left: 9%;
+    padding-top: 3%;
+    color:white;
+}
+.info img{
+    width:150px;
+    height:70px;
+}
+.location{
+    display: flex;
+    padding-left: 2%;
+}
+.location span{
+    width: 29px;
+    height: 28px;
+    margin-top: -19px;
+}
+.location p{
+    width: 58%;
+    padding-left: 18px;
+}
+.quicklinks{
+    width:50%;
+    padding-left: 13%;
+    padding-top: 4%;
+    color:white;
+}
+.quicklinks h2{
+    font-family: 'futura-pt';
+    font-weight: 500;
+    font-size: 34px;
+}
+.links{
+    padding-top: 4%;
+    padding-left: 1%;
+}
+.copyright{
+    padding-top:2%;
+    color:white;
+    width:100%;
+}
+.policy{
+    padding-bottom:10px;
+    display:flex;
+    font-size:12px;
+}
+.copyrighttext{
+    padding-left:9%;
+}
+.privacy{
+    padding-left:45%;
+}
+@media screen and (max-width:600px){
+    .footer{
+        font-size:12px;
+    }
+    .privacy{
+        padding-left:2%;
+    }
+    .location p {
+        width: 82%;
+        padding-left: 4px;
+    }
+}

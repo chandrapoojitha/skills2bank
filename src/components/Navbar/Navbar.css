@@ -1,0 +1,11 @@
+@import url("https://use.typekit.net/eug8bqj.css");
+
+a{
+    color:white;
+}
+
+@media screen and (max-width:900px){
+    a{
+        color:#002139;
+    }
+}
