@@ -72,6 +72,7 @@
 } 
 .part1button a{
     text-decoration:none;
+    color:white;
 } 
 .part1button:before{
     content: "";
@@ -515,7 +516,18 @@
     }
     .employeetext ul{
         font: normal normal normal 18px/31px 'poppins';
-        width: 98%;
+        width: 89%;
         list-style: none;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1000px){
+    .part1text{
+        margin-top:96px;
+    }
+    .text h2{
+        width:369px;
+    }
+    .text p{
+        width:355px;
     }
 }
