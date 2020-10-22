@@ -238,31 +238,32 @@
     margin-top:40px;
 }
 .part4_1img{
-    width:50%;
-    height:350px;
+    width:60%;
     align-items: center;
     float:right;
     margin-left:7%;
 }
 .part4_1img img{
     width: 100%;
+    height:89%;
     margin-top:7%;
 }
 .part4_2img{
-    width:50%;
-    height:350px;
+    width:60%;
     align-items: center;
     float:left;
     margin-left:41%;
 }
 .part4_2img img{
     width: 100%;
+    height:89%;
     margin-top:7%;
 }
 .part5{
     width:100%;
     height:330px;
     background:#14AEB8;
+    margin-top: 68px;
 }
 .part5text{
     text-align:center;
@@ -295,8 +296,8 @@
     margin-left:0;
 }
 .employeeimg img{
-    width: 89%;
-    height: 86%;
+    width: 100%;
+    height: 89%;
     margin-top:7%;
 }
 .employeetext{
@@ -308,6 +309,7 @@
 .employeetext h2{
     font-family:'futura-pt';
     font-weight:500;
+    font-size:36px;
 }
 .employeetext ul{
     font: normal normal normal 18px/31px 'poppins';
@@ -323,6 +325,92 @@
     font-size: 43px;
     margin-right: 4px;
     margin-left: -25px;
+}
+.employability{
+    width:100%;
+    height:700px;
+    display:flex;
+}
+.employabilityinfo{
+    width:50%;
+    display:flex;
+}
+.employabilityimg{
+    width:100%;
+    height:82%;
+    align-items: center;
+    float:left;
+    margin-left:0;
+}
+.employabilityimg img{
+    width: 100%;
+    height: 89%;
+    margin-top:7%;
+}
+.employabilitytext{
+    width: 50%;
+    float: right;
+    padding-top: 10%;
+    margin-left: 10%;
+}
+.employabilitytext h2{
+    font: normal normal 500 36px/51px 'futura-pt';
+}
+.employabilitytext p{
+    font: normal normal normal 18px/31px 'poppins';
+    width: 77%;
+    list-style: none;
+}
+.part7{
+    width:100%;
+    height:100%;
+}
+.follow{
+    width:100%;
+    display:flex;
+}
+.iconlist{
+    width: 100%;
+    margin:0 20%;
+    display: flex;
+    align-content: center;
+}
+.icon{
+    display: grid;
+    text-align: center;
+    width:100%;
+}
+.icon img{
+    align-items: center;
+    width: 80px;
+    padding: 22px;
+    box-shadow: 0px 5px 10px #E8F5FE;
+    border-radius: 11px;
+}
+.icon span{
+    margin-top: -12px;
+    font-family: 'poppins';
+}
+.part8{
+    width:100%;
+    height:920px;
+    margin-top:70px;
+}
+.contactpart{
+    width:100%;
+    height:100%;
+    background:#F7FAFF;
+}
+.contactheading{
+    padding-top:90px;
+    text-align:center;
+    font-family:'poppins';
+}
+.contactheading h2{
+    text-align: center;
+    font-family: futura-pt;
+    font-size: 34px;
+    font-weight:500;
 }
 @media screen and (max-width:600px){
     .imagepart{
@@ -458,6 +546,9 @@
         padding-left:7%;
         margin-top: 0;
     }
+    .employeetext ul{
+        width:85%;
+    }
     .employeetext p{
         width:100%;
         margin-left:0;
@@ -469,8 +560,57 @@
         width: 100%;
         height: 350px;
         align-items: center;
-        margin-left: 17%;
+        margin-left: 0;
         margin-top: -7px;
+    }
+    .employability{
+        width: 100%;
+        height: 100%;
+        display: grid;
+    }
+    .employabilitytext{
+        width: 100%;
+        float: right;
+        padding-top: 44%;
+        margin-left: 0;
+        margin-top: 510px;
+        height: 700px;
+        padding-left: 7%;
+    }
+    .employabilitytext p{
+        width:85%;
+    }
+    .employabilityinfo{
+        width: 100%;
+        display: flex;
+    }
+    .employabilityimg{
+        width: 100%;
+        height: 82%;
+        align-items: center;
+        float: left;
+        margin-left: 0;
+        margin-top: -1163px;
+    }
+    .icon{
+        display: grid;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .iconlist{
+        width:100%;
+        padding-left:0;
+        margin:0;
+    }
+    .icon span{
+        margin-top: -12px;
+        font-family: 'poppins';
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:480px) and (max-width:600px){
+    .employabilityimg{
+        margin-top:-1240px;
     }
 }
 @media screen and (max-width:900px) and (min-width:600px){
@@ -519,8 +659,18 @@
         width: 89%;
         list-style: none;
     }
+    .employabilitytext p{
+        width:100%;
+    }
+    .iconlist{
+        width:100%;
+        padding-left: 0;
+    }
+    .icon{
+        margin-left:0;
+    }
 }
-@media screen and (min-width:900px) and (max-width:1000px){
+@media screen and (min-width:901px) and (max-width:1000px){
     .part1text{
         margin-top:96px;
     }

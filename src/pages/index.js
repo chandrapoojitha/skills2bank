@@ -14,7 +14,13 @@ import part4_1img from '../assets/part4_1img.png'
 import part4_2img from '../assets/part4_2img.png'
 import part4_3img from '../assets/part4_3img.png'
 import employeeimg from '../assets/employeeimg.png'
-
+import employabiltyimg from '../assets/employabilityimg.png'
+import fb from '../assets/fb.png'
+import insta from '../assets/insta.png'
+import youtube from '../assets/youtube.png'
+import linkedin from '../assets/linkedin.png'
+import twitter from '../assets/twitter.png'
+import Form from '../components/Form/Form'
 
 const IndexPage = () => (
   <Layout>
@@ -200,6 +206,83 @@ const IndexPage = () => (
           </ul>
           <button className={styles.part1button}>Join as an Employer</button>
         </div>
+      </div>
+      <div className={styles.employability} id="employability">
+        <div className={styles.employabilitytext}>
+          <h2>What's in it for <b style={{color:`#14AEB8`}}>Education & Employability </b>
+          Providers?</h2>
+              <p>Motivate users and improve outcomes by using the app 
+                to showcase your 'skills success stories' from 
+                employability and widening participation activities. 
+                An app is the best way to engage with Gen Z.
+              </p>
+          <button className={styles.part1button}>Partner with Us!</button>
+        </div>
+        <div className={styles.employabilityinfo}>
+          <div className={styles.employabilityimg}>
+            <img src={employabiltyimg} alt="employabiltyimg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className={styles.part7}>
+      <div className={styles.part2heading} id="follow">
+        <p><b style={{color:`#14AEB8`}}>Follow Us </b>on Social Media</p>
+      </div>
+      <div className={styles.follow}>
+        <div className={styles.iconlist}>
+          <div className={styles.icon}>
+            <div className={styles.icomimg}>
+              <img src={fb} alt="fb" />
+            </div>
+            <div className={styles.icon_name}>
+              <span>Facebook</span>
+            </div>
+          </div>
+          <div className={styles.icon}>
+            <div className={styles.icomimg}>
+              <img src={insta} alt="insta" />
+            </div>
+            <div className={styles.icon_name}>
+              <span>Instagram</span>
+            </div>
+          </div>
+          <div className={styles.icon}>
+            <div className={styles.icomimg}>
+              <img src={youtube} alt="youtube" />
+            </div>
+            <div className={styles.icon_name}>
+              <span>Youtube</span>
+            </div>
+          </div>
+          <div className={styles.icon}>
+            <div className={styles.icomimg}>
+              <img src={linkedin} alt="linkedin" />
+            </div>
+            <div className={styles.icon_name}>
+              <span>LinkedIn</span>
+            </div>
+          </div>
+          <div className={styles.icon}>
+            <div className={styles.icomimg}>
+              <img src={twitter} alt="twitter" />
+            </div>
+            <div className={styles.icon_name}>
+              <span>Twitter</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className={styles.part8}>
+      <div className={styles.contactpart}>
+      <div className={styles.contactheading} id="contact">
+        <h2><b style={{color:`#14AEB8`}}>Contact </b>Us</h2>
+        <p>
+          We’d love to connect with you! Please leave us a message.
+        </p>
+      </div>
+      <Form />
       </div>
     </div>
   </Layout>

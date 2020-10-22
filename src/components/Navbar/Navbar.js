@@ -98,23 +98,20 @@ const Hamburger = styled.div`
   }
 `
 const Navbar = () => {
-   const [isHidden, showNavigation] = useState(true)
+   const [navbarOpen, setNavbarOpen] = useState(false)
 
-   const handleMenuToggle = e => {
-    showNavigation(!isHidden)
-  }
 
   return (
     
     <Navigation >
       <Logo />
       <Toggle
-        isHidden= {isHidden}
-        onClick={handleMenuToggle}
+        navbarOpen={navbarOpen}
+        onClick={() => setNavbarOpen(!navbarOpen)}
       >
-        {isHidden ? <Hamburger open /> : <Hamburger />}
+        {navbarOpen ? <Hamburger open /> : <Hamburger />}
       </Toggle>
-      {isHidden ? (
+      {navbarOpen ? (
         <Navbox>
           <NavbarLinks />
         </Navbox>
