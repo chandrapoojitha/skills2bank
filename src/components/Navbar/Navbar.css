@@ -1,7 +1,8 @@
 @import url("https://use.typekit.net/eug8bqj.css");
 
 a{
-    color:white;
+    color:white; 
+    font-family: 'brandon-grotesque';
 }
 
 @media screen and (max-width:900px){
