@@ -48,7 +48,7 @@ const NavbarLinks = () => {
       style={{textDecoration:`none`}}>Employers</a></NavItem>
       <NavItem ><a href="#employability" 
       style={{textDecoration:`none`}}>Employability Providers</a></NavItem>
-      <NavItem ><a href="#part4" 
+      <NavItem ><a href="#aboutus" 
       style={{textDecoration:`none`}}>About Us</a></NavItem>
       <NavItem><a href="#contact" 
       style={{textDecoration:`none`}}>Contact Us</a></NavItem>

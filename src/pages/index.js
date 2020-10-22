@@ -135,7 +135,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div className={styles.part4} >
-      <div className={styles.part2heading} id="part4">
+      <div className={styles.part2heading} id="aboutus">
         <p>Why <b style={{color:`#14AEB8`}}>Skills2Bank</b> ?</p>
       </div>
       <div className={styles.roots}>
