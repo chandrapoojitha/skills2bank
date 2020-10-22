@@ -115,7 +115,7 @@ form{
     transform: scaleX(1);
 }
 @media screen and (max-width:600px){
-    .form{
+    form{
         margin:0 16%;
     }
     .send{
@@ -124,9 +124,8 @@ form{
     }
 }
 @media screen and (max-width:900px){
-    
     .send{
         width:197px;
-        margin:11% 19%;
+        margin:11% 25%;
     }
 }
