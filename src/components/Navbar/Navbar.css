@@ -3,10 +3,12 @@
 a{
     color:white; 
     font-family: 'brandon-grotesque';
+    font-size: 21px;
 }
 
 @media screen and (max-width:900px){
     a{
         color:#002139;
+        font-size: 14px;
     }
 }
