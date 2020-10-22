@@ -123,7 +123,7 @@ form{
         margin:11% 3%;
     }
 }
-@media screen and (max-width:900px){
+@media screen and (min-wdth:600px) and (max-width:900px){
     form{
         margin:0 22%;
     }
