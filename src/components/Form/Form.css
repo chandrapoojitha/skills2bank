@@ -124,6 +124,9 @@ form{
     }
 }
 @media screen and (max-width:900px){
+    form{
+        margin:0 22%;
+    }
     .send{
         width:197px;
         margin:11% 25%;
