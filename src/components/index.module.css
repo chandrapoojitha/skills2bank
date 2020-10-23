@@ -29,7 +29,9 @@
 }
 .part1image img{
     width: 93%;
+    height: 76%;
     margin-left: 36%;
+    margin-top: 8%;
 }
 .part1text{
     width:20%;
@@ -64,8 +66,9 @@
     text-align: center;
     color:white;
     font-family: brandon-grotesque;
-    font-weight:bold;
-    font-size:22px;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.5px;
     position: relative;
     border:none;
     -webkit-transform: translateZ(0);
@@ -118,6 +121,7 @@
     width:100%;
     height:400px;
     display:flex;
+    padding-top: 40px;
 }
 .rootsinfo{
     width:50%;
@@ -165,6 +169,7 @@
     width:100%;
     height:400px;
     display:flex;
+    padding-top: 40px;
 }
 .skillsinfo{
     width:50%;
@@ -242,7 +247,8 @@
     padding-top:100px;
 }
 .part3text h3{
-    font-family:'futura-pt'
+    font-family:'futura-pt';
+    font-size: 31px;
 }
 .part3text p{
     font: normal normal normal 20px/39px 'poppins';
@@ -250,10 +256,10 @@
     padding-left: 14%;
 }
 .part4{
-    margin-top:40px;
+    margin-top:80px;
 }
 .part4_1img{
-    width:60%;
+    width:67%;
     align-items: center;
     float:right;
     margin-left:7%;
@@ -261,18 +267,18 @@
 .part4_1img img{
     width: 100%;
     height:100%;
-    margin-top:7%;
+    margin-top:0;
 }
 .part4_2img{
-    width:60%;
+    width:67%;
     align-items: center;
     float:left;
-    margin-left:41%;
+    margin-left:29%;
 }
 .part4_2img img{
     width: 100%;
     height:100%;
-    margin-top:7%;
+    margin-top:0;
 }
 .part5{
     width:100%;
@@ -286,7 +292,7 @@
     padding-top:100px;
 }
 .part5text p{
-    font: normal normal normal 28px/50px 'poppins';
+    font: normal normal 500 35px/50px 'futura-pt';
     width: 79%;
     padding-left: 20%;
 }
@@ -312,7 +318,7 @@
 }
 .employeeimg img{
     width: 100%;
-    height: 89%;
+    height: 100%;
     margin-top:7%;
 }
 .employeetext{
@@ -352,7 +358,7 @@
 }
 .employabilityimg{
     width:100%;
-    height:82%;
+    height:100%;
     align-items: center;
     float:left;
     margin-left:0;
@@ -398,7 +404,7 @@
 .icon img{
     align-items: center;
     width: 80px;
-    padding: 22px;
+    padding: 18px;
     box-shadow: 0px 5px 10px #E8F5FE;
     border-radius: 11px;
 }

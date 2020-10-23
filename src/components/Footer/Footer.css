@@ -63,7 +63,12 @@
     padding-left:9%;
 }
 .privacy{
+    display:flex;
     padding-left:45%;
+}
+.privacy a{
+    text-decoration: none;
+    color:white;
 }
 @media screen and (max-width:600px){
     .footer{

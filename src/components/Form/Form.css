@@ -20,10 +20,12 @@ form{
     height: 50px;
     border-radius:10px;
     border:none;
+    border-color:white;
 }
 .user input::placeholder{
     padding-left:0px;
     color:#829DC1;
+    opacity:1;
 }
 .usericon{
     background: white;
@@ -69,22 +71,27 @@ form{
     margin-left: -10px;
     padding-left: 20px;
     border-radius: 10px;
+    border-color:white;
     -webkit-appearance: none;
+    opacity:1;
 }
 .message{
     padding-top:20px;
 }
-.message input{
+.message textarea{
     width:100%;
     height:100px;
     border:none;
+    resize: none;
     padding-left:10px;
+    border-color:white;
 }
-.message input::placeholder{
+.message textarea::placeholder{
     padding-left:20px;
     color: #829DC1;
     font-family:'poppins';
     margin-top:-55px;
+    opacity:1;
 }
 .sendbutton{
     text-align:center;
@@ -97,8 +104,9 @@ form{
     background:#14AEB8;
     color:white;
     font-family: brandon-grotesque;
-    font-weight:bold;
-    font-size:22px;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.5px;
     position: relative;
     border:none;
     -webkit-transform: translateZ(0);

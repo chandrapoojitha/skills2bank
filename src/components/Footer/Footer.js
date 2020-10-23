@@ -49,7 +49,12 @@ const Footer = () => {
             © 2020 by Skills2Bank.
           </div>
           <div className="privacy">
-            Privacy Policy  |  Terms and Conditions
+            <div className="privacypolicy" style={{marginRight:7}}>
+              <a href="/privacypolicy">Privacy Policy</a>
+            </div>
+            <div className="terms" >
+              <a href="/terms"> | Terms & Conditions</a>
+            </div>
           </div>
         </div>
       </div>

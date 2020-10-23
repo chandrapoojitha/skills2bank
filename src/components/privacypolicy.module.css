@@ -1,0 +1,26 @@
+.privacypolicy{
+    width:100%;
+    height:100%;
+    padding:10% 15%;
+    text-align:left;
+}
+.policyheading p{
+    font:normal normal normal 30px/40px 'futura-pt';
+    color:#002139;
+}
+.policytext{
+    padding-top:20px;
+}
+.policytext p{
+    font:normal normal normal 18px/28px 'poppins';
+}
+.policytext h4{
+    font: normal normal 600 18px/28px poppins;
+    color:#002139;
+    padding-top:20px;
+}
+.policytext i{
+    font-style: normal;
+    color:#829DC1;
+    text-decoration: underline;
+}

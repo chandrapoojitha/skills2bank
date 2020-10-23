@@ -33,7 +33,7 @@ const Form =() => {
         <input type="text" name="email" placeholder="Email *"/>
       </div>
       <div className="message">
-        <input type="text" name="message" placeholder="Write a message*" />
+        <textarea type="text" name="message" placeholder="Write a message*" />
       </div>
       <div className="sendbutton">
         <button className="send">

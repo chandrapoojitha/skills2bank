@@ -1,0 +1,16 @@
+@import url("https://use.typekit.net/eug8bqj.css");
+
+.headerlinks{
+    color:#002139; 
+    font-family: 'brandon-grotesque';
+    font-size: 21px;
+    font-weight:normal;
+    margin:0 5px;
+}
+
+@media screen and (max-width:900px){
+    .headerlinks{
+        color:#002139;
+        font-size: 14px;
+    }
+}

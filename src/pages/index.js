@@ -74,7 +74,7 @@ const IndexPage = () => (
           <div className={styles.skillstext}>
             <p>Identify hidden talents and skills including digital, teamwork, 
               communications creativity, problem-solving and many more.
-             </p>
+            </p>
           </div>
         </div>
         <div className={styles.part2_3}>
@@ -132,7 +132,7 @@ const IndexPage = () => (
     </div>
     <div className={styles.part3}>
       <div className={styles.part3text}>
-        <h3>It's Fun</h3>
+        <h3>It's Fun!</h3>
         <p>The app is more like Facebook, Instagram, Pinterest, 
           TikTok, SnapChat than PowerPoint, Pdf's or endless Google searches.
         </p>
@@ -237,7 +237,10 @@ const IndexPage = () => (
         <div className={styles.iconlist}>
           <div className={styles.icon}>
             <div className={styles.icomimg}>
-              <img src={fb} alt="fb" />
+              <a href="https://www.facebook.com/Skills2Bank-102692441114850" target="_blank"
+              rel="noreferrer">
+                <img src={fb} alt="fb" />
+              </a>
             </div>
             <div className={styles.icon_name}>
               <span>Facebook</span>
@@ -245,7 +248,10 @@ const IndexPage = () => (
           </div>
           <div className={styles.icon}>
             <div className={styles.icomimg}>
-              <img src={insta} alt="insta" />
+              <a href="https://www.instagram.com/skills2bank/" target="_blank"
+              rel="noreferrer">
+                <img src={insta} alt="insta" />
+              </a>
             </div>
             <div className={styles.icon_name}>
               <span>Instagram</span>
@@ -253,7 +259,10 @@ const IndexPage = () => (
           </div>
           <div className={styles.icon}>
             <div className={styles.icomimg}>
+              <a href="https://www.youtube.com/channel/UCyS_uidXq4U1CSzdRjRvSVQ" target="_blank"
+              rel="noreferrer">
               <img src={youtube} alt="youtube" />
+              </a>
             </div>
             <div className={styles.icon_name}>
               <span>Youtube</span>
@@ -261,7 +270,10 @@ const IndexPage = () => (
           </div>
           <div className={styles.icon}>
             <div className={styles.icomimg}>
+              <a href="https://www.linkedin.com/company/skills2use-ltd/?viewAsMember=true" 
+              target="_blank" rel="noreferrer">
               <img src={linkedin} alt="linkedin" />
+              </a>
             </div>
             <div className={styles.icon_name}>
               <span>LinkedIn</span>
@@ -269,7 +281,9 @@ const IndexPage = () => (
           </div>
           <div className={styles.icon}>
             <div className={styles.icomimg}>
+              <a href="https://twitter.com/MySkills2Bank" target="_blank" rel="noreferrer">
               <img src={twitter} alt="twitter" />
+              </a>
             </div>
             <div className={styles.icon_name}>
               <span>Twitter</span>
