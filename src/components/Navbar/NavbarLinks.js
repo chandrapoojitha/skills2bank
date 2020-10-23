@@ -41,6 +41,7 @@ const NavItem = styled(Link)`
 `
 
 const NavbarLinks = () => {
+
   return (
     <>
       <NavItem  to="/">Home</NavItem>

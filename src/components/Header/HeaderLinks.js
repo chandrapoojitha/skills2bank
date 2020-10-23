@@ -44,10 +44,10 @@ const HeaderLinks = () => {
   return (
     <>
       <HeaderItem  to="/">Home</HeaderItem>
-      <HeaderItem >Employers</HeaderItem>
-      <HeaderItem >Employability Providers</HeaderItem>
-      <HeaderItem >About Us</HeaderItem>
-      <HeaderItem>Contact Us</HeaderItem>
+      <HeaderItem to="/#employee">Employers</HeaderItem>
+      <HeaderItem to="/#employability">Employability Providers</HeaderItem>
+      <HeaderItem to="/#aboutus">About Us</HeaderItem>
+      <HeaderItem to="/#contactus">Contact Us</HeaderItem>
       
     </>
   )
