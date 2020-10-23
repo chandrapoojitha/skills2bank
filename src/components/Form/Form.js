@@ -9,11 +9,15 @@ const Form =() => {
     <>
     <form name="contactform">
       <div className="user">
+        <div className="usericon">
         <img src={person} />
+        </div>
         <input type="text" name="name" placeholder="Name *"/>
       </div>
       <div className="profession">
+        <div className="officeicon">
         <img src={office} />
+        </div>
         <select>
           <option selected>I am *</option>
           <option value="Student or Employment Seeker">Student or Employment Seeker</option>
@@ -23,14 +27,18 @@ const Form =() => {
         </select>
       </div>
       <div className="user">
+        <div className="usericon">
         <img src={mail} />
+        </div>
         <input type="text" name="email" placeholder="Email *"/>
       </div>
       <div className="message">
-        <textarea type="text" name="message" placeholder="Write a message*" />
+        <input type="text" name="message" placeholder="Write a message*" />
       </div>
-      <button className="send">
+      <div className="sendbutton">
+        <button className="send">
         Send Message</button>
+      </div>
     </form>
     </>
   )

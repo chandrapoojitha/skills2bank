@@ -1,6 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 form{
     margin:0 29%;
+    text-align:center;
 }
 .user{
     position:relative;
@@ -13,9 +14,9 @@ form{
     z-index: 0;
     font-family:'poppins';
     color: #829DC1;
-    margin-left: -8px;
+    margin-left: -10px;
     background: #FFFFFF;
-    padding-left:60px;
+    padding-left:20px;
     height: 50px;
     border-radius:10px;
     border:none;
@@ -24,59 +25,77 @@ form{
     padding-left:0px;
     color:#829DC1;
 }
+.usericon{
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    border-radius: 10px;
+}
 .user img{
     position: relative;
     z-index: 1;
-    width:25px;
-    margin-right: -24px;
+    width:50%;
     padding-top: 15px;
-    margin-left: 5px;
 }
 .profession{
-    position:relative;
-    display:flex;
-    padding-top:20px;
+    position: relative;
+    display: flex;
+    padding-top: 20px;
+    height: 92px;
+}
+.officeicon{
+    background: white;
+    height: 57px;
+    width: 50px;
+    position: relative;
+    border-radius: 10px;
 }
 .profession img{
     position: relative;
     z-index: 1;
-    width:25px;
-    margin-right: -24px;
-    padding-top: 18px;
-    margin-left: 5px;
+    width: 50%;
+    padding-top: 17px;
 }
 .profession select{
     width: 100%;
     position: relative;
     z-index: 0;
-    font-family:'poppins';
+    font-family: 'poppins';
     border: none;
     color: #829DC1;
     height: 58px;
     background: white;
-    padding-left: 50px;
+    margin-left: -10px;
+    padding-left: 20px;
     border-radius: 10px;
+    -webkit-appearance: none;
 }
 .message{
     padding-top:20px;
 }
-.message textarea{
+.message input{
     width:100%;
     height:100px;
+    border:none;
+    padding-left:10px;
 }
-.message textarea::placeholder{
+.message input::placeholder{
     padding-left:20px;
     color: #829DC1;
     font-family:'poppins';
+    margin-top:-55px;
+}
+.sendbutton{
+    text-align:center;
+    padding-top:50px;
 }
 .send{
     width:232px;
     height:50px;
     border-radius:47px;
     background:#14AEB8;
-    text-align: center;
     color:white;
-    margin: 11% 29%;
     font-family: brandon-grotesque;
     font-weight:bold;
     font-size:22px;
@@ -120,7 +139,6 @@ form{
     }
     .send{
         width:194px;
-        margin:11% 3%;
     }
 }
 @media screen and (min-wdth:600px) and (max-width:900px){
@@ -129,6 +147,5 @@ form{
     }
     .send{
         width:197px;
-        margin:11% 25%;
     }
 }

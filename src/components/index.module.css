@@ -36,17 +36,20 @@
     float:left;
     text-align:left;
     margin-top:200px;
-    margin-left:10%;
+    margin-left:9%;
 }
 .text{
     width:100%;
     margin-top:40px;
 }
+.textimage{
+    display:none;
+}
 .text h2{
-    color:#14AEB8;
-    opacity:1;
-    width: 403px;
-    font: normal normal bold 31px/41px 'futura-pt';
+    color: #14AEB8;
+    opacity: 1;
+    width: 537px;
+    font: normal normal bold 41px/56px 'futura-pt';
 }
 .text p{
     font-family:'poppins';
@@ -145,6 +148,18 @@
     color: #002139;
     margin-left: -2%;
     margin-top: -4%;
+}
+.part2_1img{
+    width:50%;
+    height:350px;
+    align-items: center;
+    float:right;
+    margin-left:7%;
+}
+.part2_1img img{
+    width: 60%;
+    height: 86%;
+    margin-top:7%;
 }
 .skills{
     width:100%;
@@ -245,7 +260,7 @@
 }
 .part4_1img img{
     width: 100%;
-    height:89%;
+    height:100%;
     margin-top:7%;
 }
 .part4_2img{
@@ -256,7 +271,7 @@
 }
 .part4_2img img{
     width: 100%;
-    height:89%;
+    height:100%;
     margin-top:7%;
 }
 .part5{
@@ -418,17 +433,28 @@
     }
     .part1text{
         width: 100%;
-        height: 300px;
+        height: 100%;
         float: left;
-        text-align: left;
+        text-align: center;
         margin-top: 61px;
-        margin-left: 10%;
+        margin-left: 0;
+    }
+    .text{
+        padding:20px;
     }
     .text h2{
         width: 100%;
+        font: normal normal 700 26px/36px 'futura-pt';
     }
     .text p{
         width: 100%;
+    }
+    .textimage{
+        display:contents;
+    }
+    .textimage img{
+        width:80%;
+        height:100%;
     }
     .part2heading{
         margin-top:0;
@@ -461,6 +487,11 @@
         height: 350px;
         align-items: center;
         margin-left: 17%;
+        margin-top: -602px;
+    }
+    .part2_1img{
+        width:60%;
+        margin-left:17%;
         margin-top: -602px;
     }
     .skills{
@@ -586,7 +617,7 @@
     }
     .employabilityimg{
         width: 100%;
-        height: 82%;
+        height: 100%;
         align-items: center;
         float: left;
         margin-left: 0;
@@ -620,10 +651,20 @@
     .part1text{
         width: 100%;
         float: left;
-        height: 280px;
+        height: 100%;
         text-align: center;
         margin-top: 79px;
         margin-left: 3%;
+    }
+    .text{
+        padding:20px;
+    }
+    .textimage{
+        display:contents;
+    }
+    .textimage img{
+        width:80%;
+        height:100%;
     }
     .text h2{
         color: #14AEB8;
@@ -633,6 +674,9 @@
     }
     .text p{
         width:100%;
+    }
+    .part2{
+        margin-top:50px;
     }
     .rootstext p{
         width:100%;

@@ -30,8 +30,12 @@ const IndexPage = () => (
         <div className={styles.text}>
           <h2>Be prepared, Be Confident Be Successful</h2>
           <p>Discover your hidden talents and get the job/course you deserve.</p>
+          <div className={styles.textimage}>
+            <img  src={part1image} alt="part1image" />
+          </div>
           <button className={styles.part1button}>
-            <a href="https://play.google.com/store/apps/details?id=com.skill2bank&hl=en_GB">
+            <a href="https://play.google.com/store/apps/details?id=com.skill2bank&hl=en_GB" 
+            target="_blank">
             Download Now </a></button>
         </div>
       </div>
@@ -56,7 +60,7 @@ const IndexPage = () => (
              </p>
           </div>
           <div className={styles.rootsinfo}>
-            <div className={styles.rootsimg}>
+            <div className={styles.part2_1img}>
               <img src={roots} alt="roots" />
             </div>
           </div>
