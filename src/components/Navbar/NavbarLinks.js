@@ -41,13 +41,13 @@ const NavItem = styled(Link)`
 `
 
 const NavbarLinks = () => {
-
+  
   return (
     <>
       <NavItem  to="/">Home</NavItem>
       <NavItem ><a className="navlinks" href="#employee" 
       style={{textDecoration:`none`}}>Employers</a></NavItem>
-      <NavItem ><a href="#employability" className="navlinks"
+      <NavItem ><a href="/#employability" className="navlinks"
       style={{textDecoration:`none`}}>Employability Providers</a></NavItem>
       <NavItem ><a href="#aboutus" className="navlinks"
       style={{textDecoration:`none`}}>About Us</a></NavItem>
