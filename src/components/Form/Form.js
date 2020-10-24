@@ -37,13 +37,13 @@ const Form =() => {
       }),
       
     })
-    console.log('Form submitted')
+    console.log('Form submitted');
   }
 
   return(
     <div className="contact">
-    <form name="contactform" method="POST"  action="/" onSubmit={handleSubmit}
-        data-netlify="true" data-netlify-honeypot="bot-field" netlify>
+    <form name="contactform" method="POST" onSubmit={handleSubmit}
+        data-netlify="true" data-netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="contactform" />
       <div className="user">
         <div className="usericon">
@@ -77,8 +77,7 @@ const Form =() => {
         onChange={handleChange} required value={Formstate.message}/>
       </div>
       <div className="sendbutton">
-        <button className="send" >
-        Send Message</button>
+        <button className="send" type="submit">Send Message</button>
       </div>
     </form>
     </div>
