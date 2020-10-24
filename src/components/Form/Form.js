@@ -4,7 +4,7 @@ import person from '../../assets/person.svg'
 import office from '../../assets/office.svg'
 import mail from '../../assets/mail.svg'
 
-const Form =() => {
+const ContactForm =() => {
   const [Formstate, setFormState] = useState({
     name:"",
     email:"",
@@ -23,7 +23,6 @@ const Form =() => {
     setFormState({ ...Formstate, [e.target.name]: e.target.value });
 
   }
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setFormState({message:''});
@@ -45,14 +44,14 @@ const Form =() => {
     <form name="contactform" method="POST" onSubmit={handleSubmit}
         data-netlify="true" data-netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="contactform" />
-      <div className="user">
+      <p className="user">
         <div className="usericon">
         <img src={person} />
         </div>
         <input type="text" name="name" placeholder="Name *"
         onChange={handleChange} required value={Formstate.name}/>
-      </div>
-      <div className="profession">
+      </p>
+      <p className="profession">
         <div className="officeicon">
         <img src={office} />
         </div>
@@ -64,24 +63,24 @@ const Form =() => {
           <option value="Educational Institute or Employability Provider">
             Educational Institute or Employability Provider</option>
         </select>
-      </div>
-      <div className="user">
-        <div className="usericon">
+      </p>
+      <p className="user">
+        <p className="usericon">
         <img src={mail} />
-        </div>
+        </p>
         <input type="text" name="email" placeholder="Email *"
         onChange={handleChange} required value={Formstate.email}/>
-      </div>
-      <div className="message">
+      </p>
+      <p className="message">
         <textarea type="text" name="message" placeholder="Write a message*" 
         onChange={handleChange} required value={Formstate.message}/>
-      </div>
-      <div className="sendbutton">
+      </p>
+      <p className="sendbutton">
         <button className="send" type="submit">Send Message</button>
-      </div>
+      </p>
     </form>
     </div>
   )
 }
 
-export default Form
+export default ContactForm

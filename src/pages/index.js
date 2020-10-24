@@ -20,7 +20,7 @@ import insta from '../assets/insta.png'
 import youtube from '../assets/youtube.png'
 import linkedin from '../assets/linkedin.png'
 import twitter from '../assets/twitter.png'
-import Form from '../components/Form/Form'
+import ContactForm from '../components/Form/Form'
 
 const IndexPage = () => (
   <Layout>
@@ -300,7 +300,7 @@ const IndexPage = () => (
           We’d love to connect with you! Please leave us a message.
         </p>
       </div>
-      <Form />
+      <ContactForm />
       </div>
     </div>
   </Layout>
