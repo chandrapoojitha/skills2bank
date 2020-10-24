@@ -3,6 +3,7 @@ form{
     margin:0 29%;
     text-align:center;
     font-family:'poppins';
+    color:#829DC1;
 }
 .user{
     position:relative;
@@ -87,6 +88,7 @@ form{
     padding-left:10px;
     border-color:white;
     font-family:'poppins';
+    color: #829DC1;
 }
 .message textarea::placeholder{
     padding-left:20px;
