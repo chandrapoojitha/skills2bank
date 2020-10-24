@@ -34,7 +34,15 @@ const ContactForm =() => {
         "form-name": "contactus",
         ...Formstate,
       }),
-      
+    }).then((response) => {
+      setFormState({
+        feedbackMsg: "Form submitted successfully!",
+      })
+    })
+    .catch((err) => {
+      setFormState({
+        feedbackMsg: "Form could not be submitted.",
+      })
     })
     console.log('Form submitted');
   }
@@ -75,6 +83,7 @@ const ContactForm =() => {
         <textarea type="text" name="message" placeholder="Write a message*" 
         onChange={handleChange} required value={Formstate.message}/>
       </p>
+      {Formstate.feedbackMsg}
       <p className="sendbutton">
         <button className="send" type="submit">Send Message</button>
       </p>
