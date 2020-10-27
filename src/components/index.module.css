@@ -69,8 +69,8 @@
     color:white;
     font-family: brandon-grotesque;
     font-weight: 600;
-    font-size: 22px;
-    letter-spacing: 0.5px;
+    font-size: 19px;
+    letter-spacing: 1px;
     position: relative;
     border:none;
     -webkit-transform: translateZ(0);
@@ -114,7 +114,6 @@
     text-align: center;
     font-family: futura-pt;
     font-size: 34px;
-    font-weight:500;
 }
 .part2list{
     margin-top:20px;
@@ -185,7 +184,7 @@
     margin-left:41%;
 }
 .skillsimg img{
-    width: 89%;
+    width: 59%;
     height: 86%;
     margin-top:7%;
 }
@@ -261,7 +260,7 @@
     margin-top:80px;
 }
 .part4_1img{
-    width:67%;
+    width:62%;
     align-items: center;
     float:right;
     margin-left:7%;
@@ -272,7 +271,7 @@
     margin-top:0;
 }
 .part4_2img{
-    width:67%;
+    width:62%;
     align-items: center;
     float:left;
     margin-left:29%;
@@ -312,7 +311,7 @@
     display:flex;
 }
 .employeeimg{
-    width:100%;
+    width:90%;
     height:100%;
     align-items: center;
     float:right;
@@ -360,11 +359,11 @@
     display:flex;
 }
 .employabilityimg{
-    width:100%;
+    width:90%;
     height:100%;
     align-items: center;
     float:left;
-    margin-left:0;
+    margin-left:10%;
 }
 .employabilityimg img{
     width: 100%;
@@ -582,7 +581,7 @@
         width: 100%;
         float: left;
         height:521px;
-        padding-top: 2%;
+        padding-top: 24%;
         margin-left: 0;
         padding-left:7%;
         margin-top: 0;

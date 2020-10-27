@@ -24,6 +24,7 @@ const ContactForm =() => {
     setFormState({ ...Formstate, [e.target.name]: e.target.value });
 
   }
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setFormState({message:''});
@@ -46,14 +47,16 @@ const ContactForm =() => {
         feedbackMsg: "Form submitted successfully!",
       })
     })
-    .catch((err) => {
-      console.log(err);
+    .catch((error) => {
+      console.log(error);
       setFormState({
         feedbackMsg: "Email already exists",
       })
     })
     console.log('Form submitted');
   }
+
+  
 
   return(
     <div className="contact">

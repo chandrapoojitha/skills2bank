@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `skills2bank`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Discover your transferable employability skills: use them for interview preparation, applications, assessments, personal statements:  get free app`,
     author: `@gatsbyjs`,
   },
   plugins: [
