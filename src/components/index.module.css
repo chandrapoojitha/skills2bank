@@ -39,6 +39,8 @@
     text-align:left;
     margin-top:200px;
     margin-left:9%;
+    position:relative;
+    z-index:3;
 }
 .text{
     width:100%;
