@@ -59,6 +59,7 @@
     font-family:'poppins';
     width:400px;
     color: #002139;
+    font-size:22px;
 }
 .part1button{
     width:232px;
@@ -148,7 +149,7 @@
 }
 .rootstext p{
     width: 77%;
-    font:   normal normal normal 18px/31px 'Poppins';
+    font:   normal normal normal 22px/40px 'Poppins';
     padding: 23px;
     color: #002139;
     margin-left: -2%;
@@ -196,7 +197,7 @@
 }
 .skillstext p{
     width: 77%;
-    font:   normal normal normal 18px/31px 'Poppins';
+    font:   normal normal normal 22px/40px 'Poppins';
     padding: 23px;
     color: #002139;
     margin-left: -2%;
@@ -252,7 +253,7 @@
     font-size: 31px;
 }
 .part3text p{
-    font: normal normal normal 20px/39px 'poppins';
+    font: normal normal normal 22px/40px 'poppins';
     width: 87%;
     padding-left: 14%;
 }
@@ -334,7 +335,7 @@
     font-size:36px;
 }
 .employeetext ul{
-    font: normal normal normal 18px/31px 'poppins';
+    font: normal normal normal 22px/40px 'poppins';
     width: 67%;
     list-style: none;
 }
@@ -380,7 +381,7 @@
     font: normal normal 500 36px/51px 'futura-pt';
 }
 .employabilitytext p{
-    font: normal normal normal 18px/31px 'poppins';
+    font: normal normal normal 22px/40px 'poppins';
     width: 77%;
     list-style: none;
 }
