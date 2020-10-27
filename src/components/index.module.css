@@ -28,9 +28,9 @@
     z-index: 2;
 }
 .part1image img{
-    width: 93%;
+    width: 86%;
     height: 76%;
-    margin-left: 36%;
+    margin-left: 41%;
     margin-top: 8%;
 }
 .part1text{
@@ -311,7 +311,7 @@
 }
 .employeeimg{
     width:100%;
-    height:82%;
+    height:100%;
     align-items: center;
     float:right;
     margin-left:0;
@@ -351,6 +351,7 @@
     width:100%;
     height:700px;
     display:flex;
+    margin-top:50px;
 }
 .employabilityinfo{
     width:50%;
@@ -365,7 +366,7 @@
 }
 .employabilityimg img{
     width: 100%;
-    height: 89%;
+    height: 100%;
     margin-top:7%;
 }
 .employabilitytext{
@@ -385,6 +386,7 @@
 .part7{
     width:100%;
     height:100%;
+    margin-top:120px;
 }
 .follow{
     width:100%;

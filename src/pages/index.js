@@ -28,7 +28,7 @@ const IndexPage = () => (
     <div className={styles.part1}>
       <div className={styles.part1text}>
         <div className={styles.text}>
-          <h2>Be prepared, Be Confident Be Successful</h2>
+          <h2>Be prepared, Be Confident Be Successful!</h2>
           <p>Discover your hidden talents and get the job/course you deserve.</p>
           <div className={styles.textimage}>
             <img  src={part1image} alt="part1image" />
@@ -208,7 +208,7 @@ const IndexPage = () => (
               </p>
             </li>
           </ul>
-          <button className={styles.part1button}>Join as an Employer</button>
+          <button className={styles.part1button}><a href="/#contact">Join as an Employer</a></button>
         </div>
       </div>
       <div className={styles.employability} id="employability">
@@ -220,7 +220,7 @@ const IndexPage = () => (
                 employability and widening participation activities. 
                 An app is the best way to engage with Gen Z.
               </p>
-          <button className={styles.part1button}>Partner with Us!</button>
+          <button className={styles.part1button}><a href="/#contact">Partner with Us!</a></button>
         </div>
         <div className={styles.employabilityinfo}>
           <div className={styles.employabilityimg}>
