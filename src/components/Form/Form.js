@@ -31,15 +31,17 @@ const ContactForm =() => {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
-        "form-name": "contactus",
+        "form-name": "contactform",
         ...Formstate,
       }),
     }).then((response) => {
+      console.log(response);
       setFormState({
         feedbackMsg: "Form submitted successfully!",
       })
     })
     .catch((err) => {
+      console.log(err);
       setFormState({
         feedbackMsg: "Form could not be submitted.",
       })
@@ -54,14 +56,14 @@ const ContactForm =() => {
       <input type="hidden" name="form-name" value="contactform" />
       <p className="user">
         <div className="usericon">
-        <img src={person} />
+        <img src={person} alt="user icon" />
         </div>
         <input type="text" name="name" placeholder="Name *"
         onChange={handleChange} required value={Formstate.name}/>
       </p>
       <p className="profession">
         <div className="officeicon">
-        <img src={office} />
+        <img src={office} alt="office icon" />
         </div>
         <select required name="profession" 
         onChange={handleChange} required value={Formstate.profession}>
@@ -74,7 +76,7 @@ const ContactForm =() => {
       </p>
       <p className="user">
         <p className="usericon">
-        <img src={mail} />
+        <img src={mail} alt="mail icon"/>
         </p>
         <input type="text" name="email" placeholder="Email *"
         onChange={handleChange} required value={Formstate.email}/>
