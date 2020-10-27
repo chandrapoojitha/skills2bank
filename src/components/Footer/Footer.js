@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footercontent">
           <div className="info">
-            <img src={s2blogowhite} alt="s2blogo" />
+            <a href="/"><img src={s2blogowhite} alt="s2blogo" /></a>
             <div className="location">
               <span><img src={locationonwhite} alt="location" /></span>
               <p>

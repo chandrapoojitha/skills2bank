@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import s2blogo from "../../assets/s2blogo.svg" 
+import s2blogo from "../../assets/s2blogo.webp" 
 
 const LogoImg = styled.div`
   margin-left:6%;
@@ -16,7 +16,7 @@ const LogoImg = styled.div`
 const Logo = () => {
   return (
     <>
-    <LogoImg><a href="/"><img src={s2blogo} alt="s2blogo" style={{width:210,height:50}}/></a></LogoImg>
+    <LogoImg><a href="/"><img src={s2blogo} alt="s2blogo" style={{width:168,height:50}}/></a></LogoImg>
     </>
   )
 }

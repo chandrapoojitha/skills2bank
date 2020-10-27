@@ -22,9 +22,14 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         display: `minimal-ui`,
-        icon: `src/assets/favicon.png`, 
+        icon: `src/assets/favicon.webp`, 
       },
     },
-    
+    {
+      resolve: `gatsby-plugin-mailchimp`,
+      options: {
+        endpoint: `https://gmail.us2.list-manage.com/subscribe/post?u=665762a3d5158719c0c7278c0&amp;id=ad0108fed4`,
+      }
+    },
   ]
 }

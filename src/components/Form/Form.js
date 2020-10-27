@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
 import './Form.css'
-import person from '../../assets/person.svg'
-import office from '../../assets/office.svg'
-import mail from '../../assets/mail.svg'
+import addToMailchimp from 'gatsby-plugin-mailchimp'
+import person from '../../assets/person.webp'
+import office from '../../assets/office.webp'
+import mail from '../../assets/mail.webp'
 
 const ContactForm =() => {
   const [Formstate, setFormState] = useState({
@@ -34,6 +35,11 @@ const ContactForm =() => {
         "form-name": "contactform",
         ...Formstate,
       }),
+    })
+    addToMailchimp(Formstate.email,{
+      "FNAME": Formstate.name,
+      "PROFESSION": Formstate.profession,
+      "MESSAGE": Formstate.message,
     }).then((response) => {
       console.log(response);
       setFormState({
@@ -43,7 +49,7 @@ const ContactForm =() => {
     .catch((err) => {
       console.log(err);
       setFormState({
-        feedbackMsg: "Form could not be submitted.",
+        feedbackMsg: "Email already exists",
       })
     })
     console.log('Form submitted');
