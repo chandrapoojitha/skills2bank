@@ -24,7 +24,7 @@ import ContactForm from '../components/Form/Form'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Skills2Bank - Be prepared, Be confident, Be successful " />
+    <SEO title="Skills2Bank - Be prepared, Be confident, Be successful! " />
     <div className={styles.part1}>
       <div className={styles.part1text}>
         <div className={styles.text}>
@@ -50,7 +50,7 @@ const IndexPage = () => (
     </div>
     <div className={styles.part2}>
       <div className={styles.part2heading}>
-        <p>What can <b style={{color:`#14AEB8`}}>Skills2Bank</b> do for you?</p>
+        <p>What can <b style={{color:`#14AEB8`}}>Skills2Bank</b> do for you<b>?</b></p>
       </div>
       <div className={styles.part2list}>
         <div className={styles.roots}>
@@ -140,7 +140,7 @@ const IndexPage = () => (
     </div>
     <div className={styles.part4} >
       <div className={styles.part2heading} id="aboutus">
-        <p>Why <b style={{color:`#14AEB8`}}>Skills2Bank</b> ?</p>
+        <p>Why <b style={{color:`#14AEB8`}}>Skills2Bank?</b></p>
       </div>
       <div className={styles.roots}>
         <div className={styles.rootstext}>
