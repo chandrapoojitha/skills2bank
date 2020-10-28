@@ -653,8 +653,14 @@
     }
 }
 @media screen and (min-width:480px) and (max-width:600px){
+    .employabilitytext{
+        margin-top: 779px;
+    }
     .employabilityimg{
-        margin-top:-1240px;
+        margin-top:-1444px;
+    }
+    .part7{
+        margin-top:50px;
     }
 }
 @media screen and (max-width:900px) and (min-width:600px){
