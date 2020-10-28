@@ -14,7 +14,7 @@ const NavItem = styled(Link)`
   font-family: brandon-grotesque;
   font-weight:600;
   font-size: 21px;
-  opacity:0.85;
+  opacity:0.9;
 
   :after {
     position: absolute;
