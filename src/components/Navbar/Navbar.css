@@ -5,7 +5,8 @@
     font-family: brandon-grotesque;
     font-size: 21.5px;
     margin: 0 5px;
-    opacity: 1;
+    opacity: 0.9;
+    font-weight: 600;
 }
 
 @media screen and (max-width:900px){
