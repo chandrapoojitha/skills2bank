@@ -12,9 +12,9 @@ const NavItem = styled(Link)`
   transition: all 200ms ease-in;
   position: relative;
   font-family: brandon-grotesque;
-  font-weight:500;
+  font-weight:600;
   font-size: 21px;
-  opacity:0.9;
+  opacity:0.85;
 
   :after {
     position: absolute;

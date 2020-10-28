@@ -10,6 +10,7 @@
 .footercontent{
     width:100%;
     display:flex;
+    font-size:20px;
 }
 .info{
     width:50%;
@@ -57,14 +58,14 @@
 .policy{
     padding-bottom:10px;
     display:flex;
-    font-size:12px;
+    font-size:10px;
 }
 .copyrighttext{
     padding-left:9%;
 }
 .privacy{
     display:flex;
-    padding-left:45%;
+    padding-left:48%;
 }
 .privacy a{
     text-decoration: none;
