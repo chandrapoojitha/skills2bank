@@ -78,8 +78,19 @@
     .footer{
         font-size:12px;
     }
+    .footercontent{
+        display:grid;
+    }
+    .info{
+        width:100%;
+        padding-left:24%;
+    }
+    .quicklinks{
+        width:100%;
+        padding-left:24%;
+    }
     .privacy{
-        padding-left: 6%;
+        padding-left: 26%;
         font-size: 9px;
     }
     .location p {
