@@ -14,6 +14,7 @@ const NavItem = styled(Link)`
   font-family: brandon-grotesque;
   font-weight:600;
   font-size: 22px;
+  opacity:0.85;
 
   :after {
     position: absolute;
@@ -25,6 +26,7 @@ const NavItem = styled(Link)`
     font-weight:600;
     height: 1px;
     transition: all 0.4s ease-in;
+    opacity:0.85;
   }
 
 
@@ -43,7 +45,8 @@ const NavbarLinks = () => {
   
   return (
     <>
-      <NavItem  to="/">Home</NavItem>
+      <NavItem><a className="navlinks" href="#employee" 
+      style={{textDecoration:`none`}}>Home</a></NavItem>
       <NavItem ><a className="navlinks" href="#employee" 
       style={{textDecoration:`none`}}>Employers</a></NavItem>
       <NavItem ><a href="/#employability" className="navlinks"
