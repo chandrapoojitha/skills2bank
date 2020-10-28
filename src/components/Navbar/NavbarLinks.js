@@ -12,7 +12,7 @@ const NavItem = styled(Link)`
   transition: all 200ms ease-in;
   position: relative;
   font-family: brandon-grotesque;
-  font-weight:600;
+  font-weight:500;
   font-size: 21px;
   opacity:0.9;
 
@@ -23,10 +23,10 @@ const NavItem = styled(Link)`
     right: 0;
     width: 0%;
     content: "";
-    font-weight:600;
+    font-weight:500;
     height: 1px;
     transition: all 0.4s ease-in;
-    opacity:0.85;
+    opacity:0.9;
   }
 
 

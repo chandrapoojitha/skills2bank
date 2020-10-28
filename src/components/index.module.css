@@ -70,6 +70,7 @@
     font-family: brandon-grotesque;
     font-weight: 600;
     font-size: 19px;
+    top:28px;
     letter-spacing: 1px;
     position: relative;
     border:none;
@@ -113,7 +114,8 @@
 .part2heading p{
     text-align: center;
     font-family: futura-pt;
-    font-size: 34px;
+    font-size: 44px;
+    font-weight:500;
 }
 .part2list{
     margin-top:20px;
