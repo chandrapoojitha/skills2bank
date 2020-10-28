@@ -60,7 +60,7 @@ const Navbox = styled.div`
     left: ${props => (props.open ? "-100%" : "0")};
   }
   @media (max-width:1024px){
-    margin-right:40px;
+    margin-right:0;
   }
 `
 

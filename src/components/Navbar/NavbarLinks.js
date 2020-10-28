@@ -13,7 +13,7 @@ const NavItem = styled(Link)`
   position: relative;
   font-family: brandon-grotesque;
   font-weight:500;
-  font-size: 21px;
+  font-size: 22px;
 
   :after {
     position: absolute;
@@ -35,7 +35,7 @@ const NavItem = styled(Link)`
     color:#002743;
   }
   @media (max-width:1200px){
-    font-size:13px;
+    font-size:22px;
     margin:0 7px;
   }
 `

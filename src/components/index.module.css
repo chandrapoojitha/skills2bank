@@ -773,3 +773,15 @@
         width:355px;
     }
 }
+@media screen and (min-width:1001px) and (max-width:1250px){
+    .part1text{
+        margin-top:129px;
+        margin-left:5%;
+    }
+    .text h2{
+        color: #14AEB8;
+        opacity: 1;
+        width: 435px;
+        font: normal normal bold 36px/56px 'futura-pt';
+    }
+}
