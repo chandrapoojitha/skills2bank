@@ -37,7 +37,7 @@
     width:20%;
     float:left;
     text-align:left;
-    margin-top:200px;
+    margin-top:112px;
     margin-left:9%;
     position:relative;
     z-index:3;
@@ -56,10 +56,9 @@
     font: normal normal bold 44px/56px 'futura-pt';
 }
 .text p{
-    font-family:'poppins';
-    width:400px;
+    width:451px;
     color: #002139;
-    font-size:22px;
+    font: normal normal normal 22px/40px 'poppins';
 }
 .part1button{
     width:232px;

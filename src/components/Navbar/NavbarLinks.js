@@ -12,7 +12,7 @@ const NavItem = styled(Link)`
   transition: all 200ms ease-in;
   position: relative;
   font-family: brandon-grotesque;
-  font-weight:500;
+  font-weight:600;
   font-size: 22px;
 
   :after {
@@ -22,7 +22,7 @@ const NavItem = styled(Link)`
     right: 0;
     width: 0%;
     content: "";
-    font-weight:500;
+    font-weight:600;
     height: 1px;
     transition: all 0.4s ease-in;
   }
