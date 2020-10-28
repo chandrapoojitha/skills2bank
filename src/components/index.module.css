@@ -53,7 +53,7 @@
     color: #14AEB8;
     opacity: 1;
     width: 537px;
-    font: normal normal bold 41px/56px 'futura-pt';
+    font: normal normal bold 44px/56px 'futura-pt';
 }
 .text p{
     font-family:'poppins';
@@ -667,6 +667,29 @@
     }
     .part2_3img{
         margin-top:-666px;
+    }
+}
+@media screen and (max-width:320px){
+    .part2_1img{
+        margin-top:-695px;
+    }
+    .part2_3img{
+        margin-top:-774px;
+    }
+    .rootsimg{
+        margin-top:-710px;
+    }
+    .part4_1img{
+        margin-top:-778px;
+    }
+    .employabilityimg{
+        margin-top:-1157px;
+    }
+    .follow{
+        display:grid
+    }
+    .iconlist{
+        display:grid;
     }
 }
 @media screen and (max-width:900px) and (min-width:600px){
