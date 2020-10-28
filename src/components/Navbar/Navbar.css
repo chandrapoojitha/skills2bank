@@ -3,10 +3,10 @@
 .navlinks{
     color:white; 
     font-family: 'brandon-grotesque';
-    font-size: 22px;
+    font-size: 21px;
     font-weight:600;
     margin:0 5px;
-    opacity:0.85;
+    opacity:0.9;
 }
 
 @media screen and (max-width:900px){

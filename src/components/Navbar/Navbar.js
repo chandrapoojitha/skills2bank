@@ -13,7 +13,7 @@ const Navigation = styled.nav`
   position: relative;
   margin-top:50px;
   justify-content: space-between;
-  font-weight:600;
+  font-weight:500;
 //   border-bottom: 2px solid #33333320;
   margin: 0 auto;
   z-index: 5;

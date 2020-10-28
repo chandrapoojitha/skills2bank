@@ -13,8 +13,8 @@ const NavItem = styled(Link)`
   position: relative;
   font-family: brandon-grotesque;
   font-weight:600;
-  font-size: 22px;
-  opacity:0.85;
+  font-size: 21px;
+  opacity:0.9;
 
   :after {
     position: absolute;
