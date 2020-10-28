@@ -16,7 +16,7 @@ const Navigation = styled.nav`
   font-weight:600;
 //   border-bottom: 2px solid #33333320;
   margin: 0 auto;
-  z-index: 3;
+  z-index: 5;
   align-self: center;
 
   @media (max-width: 900px) {
