@@ -44,10 +44,10 @@ const HeaderLinks = () => {
   return (
     <>
       <HeaderItem  to="/">Home</HeaderItem>
-      <HeaderItem to="#employee">Employers</HeaderItem>
-      <HeaderItem to="#employability">Employability Providers</HeaderItem>
-      <HeaderItem to="#aboutus">About Us</HeaderItem>
-      <HeaderItem to="#contact">Contact Us</HeaderItem>
+      <HeaderItem to="https://www.skills2bank.com/#employee">Employers</HeaderItem>
+      <HeaderItem to="https://www.skills2bank.com/#employability">Employability Providers</HeaderItem>
+      <HeaderItem to="https://www.skills2bank.com/#aboutus">About Us</HeaderItem>
+      <HeaderItem to="https://www.skills2bank.com/#contact">Contact Us</HeaderItem>
       
     </>
   )
