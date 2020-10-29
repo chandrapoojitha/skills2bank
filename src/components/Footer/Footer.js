@@ -34,10 +34,10 @@ const Footer = () => {
               <h2>Quick Links</h2>
               <div className="links">
                 <p><a href="/">Home </a></p>
-                <p><a href="/#employee">Employers</a></p>
-                <p><a href="/employability">Employability Providers</a></p>
-                <p><a href="/#aboutus">About Us</a></p>
-                <p><a href="/#contactus">Contact Us</a></p>
+                <p><a href="#employee">Employers</a></p>
+                <p><a href="#employability">Employability Providers</a></p>
+                <p><a href="#aboutus">About Us</a></p>
+                <p><a href="#contact">Contact Us</a></p>
                 <p>Diversity and Inclusion Policy</p>
               </div>
           </div>
