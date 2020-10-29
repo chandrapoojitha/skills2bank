@@ -28,7 +28,7 @@ const IndexPage = () => (
     <div className={styles.part1}>
       <div className={styles.part1text}>
         <div className={styles.text}>
-          <h2>Be prepared, Be Confident Be Successful!</h2>
+          <h2>Be Prepared, Be Confident Be Successful!</h2>
           <p>Discover your hidden talents and get the job/course you deserve.</p>
           <div className={styles.textimage}>
             <img  src={part1image} alt="part1image"/>

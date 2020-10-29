@@ -5,23 +5,23 @@
     text-align:left;
 }
 .terms p{
-    font:normal normal normal 30px/40px 'futura-pt';
+    font:normal normal normal 40px/43px 'futura-pt';
     color:#002139;
 }
 .termstext{
     padding-top:20px;
 }
 .termstext p{
-    font:normal normal normal 18px/28px 'poppins';
+    font:normal normal normal 22px/40px 'poppins';
 }
 .termslist1{
     list-style: none;
-    font:normal normal normal 18px/28px 'poppins';
+    font:normal normal normal 22px/40px 'poppins';
     color:#002139;
     margin-left:-4px;
 }
 .termslist2{
-    font:normal normal normal 18px/28px 'poppins';
+    font:normal normal normal 22px/40px 'poppins';
     color:#002139;
     margin-left:24px;
 }

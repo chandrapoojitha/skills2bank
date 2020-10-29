@@ -13,7 +13,7 @@ const HeaderItem = styled(Link)`
   position:relative;
   font-family: brandon-grotesque;
   font-weight:500;
-  font-size: 21px;
+  font-size: 24px;
 
   :after {
     position: absolute;
@@ -47,7 +47,7 @@ const HeaderLinks = () => {
       <HeaderItem to="/#employee">Employers</HeaderItem>
       <HeaderItem to="/#employability">Employability Providers</HeaderItem>
       <HeaderItem to="/#aboutus">About Us</HeaderItem>
-      <HeaderItem to="/#contactus">Contact Us</HeaderItem>
+      <HeaderItem to="/#contact">Contact Us</HeaderItem>
       
     </>
   )

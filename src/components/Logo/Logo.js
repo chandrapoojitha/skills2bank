@@ -16,7 +16,7 @@ const LogoImg = styled.div`
 const Logo = () => {
   return (
     <>
-    <LogoImg><a href="/"><img src={s2blogo} alt="s2blogo" style={{width:168,height:64}}/></a></LogoImg>
+    <LogoImg><a href="/"><img src={s2blogo} alt="s2blogo" style={{width:168,height:60}}/></a></LogoImg>
     </>
   )
 }
