@@ -52,8 +52,9 @@ const Footer = () => {
             <div className="privacypolicy" style={{marginRight:7}}>
               <a href="/privacypolicy">Privacy Policy</a>
             </div>
+            <div> |</div>
             <div className="terms" >
-              <a href="/terms"> | Terms & Conditions</a>
+              <a href="/terms"> Terms & Conditions</a>
             </div>
           </div>
         </div>

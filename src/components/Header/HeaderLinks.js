@@ -45,13 +45,13 @@ const HeaderLinks = () => {
     <>
       <HeaderItem><a className="headerlinks" href="/" 
       style={{textDecoration:`none`}}>Home</a></HeaderItem>
-      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com/#employee" 
+      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com#employee" 
       style={{textDecoration:`none`}}>Employee</a></HeaderItem>
-      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com/#employability" 
+      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com#employability" 
       style={{textDecoration:`none`}}>Employability Providers</a></HeaderItem>
-      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com/#aboutus" 
+      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com#aboutus" 
       style={{textDecoration:`none`}}>About Us</a></HeaderItem>
-      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com/#contact" 
+      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com#contact" 
       style={{textDecoration:`none`}}>Contact Us</a></HeaderItem>
       
     </>
