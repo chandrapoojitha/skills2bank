@@ -11,6 +11,7 @@
     width:100%;
     display:flex;
     font-size:20px;
+    opacity:0.85;
 }
 .info{
     width:50%;
