@@ -11,7 +11,7 @@ const HeaderItem = styled(Link)`
   margin: 0 1vw;
   transition: all 200ms ease-in;
   position:relative;
-  font: normal normal medium 24px/30px Brandon Grotesque;
+  font: normal normal 500 24px/30px 'brandon-grotesque';
 
   :after {
     position: absolute;
@@ -43,13 +43,13 @@ const HeaderLinks = () => {
     <>
       <HeaderItem><a className="headerlinks" href="/" 
       style={{textDecoration:`none`}}>Home</a></HeaderItem>
-      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com/#employee" 
+      <HeaderItem><a className="headerlinks" href="/#employee" 
       style={{textDecoration:`none`}}>Employee</a></HeaderItem>
-      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com/#employability" 
+      <HeaderItem><a className="headerlinks" href="/#employability" 
       style={{textDecoration:`none`}}>Employability Providers</a></HeaderItem>
-      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com/#aboutus" 
+      <HeaderItem><a className="headerlinks" href="/#aboutus" 
       style={{textDecoration:`none`}}>About Us</a></HeaderItem>
-      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com/#contact" 
+      <HeaderItem><a className="headerlinks" href="/#contact" 
       style={{textDecoration:`none`}}>Contact Us</a></HeaderItem>
       
     </>
