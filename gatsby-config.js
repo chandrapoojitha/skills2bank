@@ -3,7 +3,8 @@ module.exports = {
     title: `skills2bank`,
     description: `Discover your transferable employability skills: use them for interview preparation, applications, assessments, personal statements:  get free app`,
     author: `@gatsbyjs`,
-    siteUrl:`https://www.skills2bank.com`
+    siteUrl:`https://www.skills2bank.com`,
+    image:`src/assets/favicon.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
