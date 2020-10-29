@@ -31,7 +31,7 @@ const IndexPage = () => (
           <h2>Be prepared, Be Confident Be Successful!</h2>
           <p>Discover your hidden talents and get the job/course you deserve.</p>
           <div className={styles.textimage}>
-            <img  src={part1image} alt="part1image" />
+            <img  src={part1image} alt="part1image" type="image/webp"/>
           </div>
           <button className={styles.part1button}>
             <a href="https://play.google.com/store/apps/details?id=com.skill2bank&hl=en_GB" 
@@ -41,10 +41,10 @@ const IndexPage = () => (
       </div>
       <div className={styles.imagepart}>
         <div className={styles.image}>
-          <img src={image1} alt="image1" />
+          <img src={image1} alt="image1" type="image/webp"/>
         </div>
         <div className={styles.part1image}>
-          <img className="part1image" src={part1image} alt="part1image" />
+          <img className="part1image" src={part1image} alt="part1image" type="image/webp"/>
         </div>
       </div>
     </div>
