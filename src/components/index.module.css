@@ -185,7 +185,7 @@
     margin-left:41%;
 }
 .skillsimg img{
-    width: 77%;
+    width: 100%;
     height: 86%;
     margin-top:7%;
 }
@@ -221,7 +221,7 @@
 }
 .part2_3img img{
     width: 100%;
-    height: 86%;
+    height: 98%;
     margin-top:7%;
 }
 .part2_3text{
@@ -294,7 +294,7 @@
     padding-top:100px;
 }
 .part5text p{
-    font: normal normal 500 44px/60px 'futura-pt';
+    font: normal normal 500 41px/60px 'futura-pt';
     width: 85%;
     padding-left: 15%;
 }
