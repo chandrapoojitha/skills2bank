@@ -12,8 +12,11 @@ const HeaderItem = styled(Link)`
   transition: all 200ms ease-in;
   position:relative;
   font-family: brandon-grotesque;
-  font-weight:500;
-  font-size: 24px;
+  font-size: 23.5px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0 5px;
+  opacity: 0.9;
 
   :after {
     position: absolute;
