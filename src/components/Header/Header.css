@@ -2,9 +2,7 @@
 
 .headerlinks{
     color:#002139; 
-    font-family: 'brandon-grotesque';
-    font-size: 24px;
-    font-weight:500;
+    font: normal normal medium 24px/30px Brandon Grotesque;
     margin:0 5px;
 }
 
