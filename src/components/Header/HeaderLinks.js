@@ -43,11 +43,16 @@ const HeaderItem = styled(Link)`
 const HeaderLinks = () => {
   return (
     <>
-      <HeaderItem  to="/">Home</HeaderItem>
-      <HeaderItem to="https://www.skills2bank.com/#employee">Employers</HeaderItem>
-      <HeaderItem to="https://www.skills2bank.com/#employability">Employability Providers</HeaderItem>
-      <HeaderItem to="https://www.skills2bank.com/#aboutus">About Us</HeaderItem>
-      <HeaderItem to="https://www.skills2bank.com/#contact">Contact Us</HeaderItem>
+      <HeaderItem><a className="headerlinks" href="/" 
+      style={{textDecoration:`none`}}>Home</a></HeaderItem>
+      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com/#employee" 
+      style={{textDecoration:`none`}}>Employee</a></HeaderItem>
+      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com/#employability" 
+      style={{textDecoration:`none`}}>Employability Providers</a></HeaderItem>
+      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com/#aboutus" 
+      style={{textDecoration:`none`}}>About Us</a></HeaderItem>
+      <HeaderItem><a className="headerlinks" href="https://www.skills2bank.com/#contact" 
+      style={{textDecoration:`none`}}>Contact Us</a></HeaderItem>
       
     </>
   )

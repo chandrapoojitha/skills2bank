@@ -44,7 +44,7 @@ const NavbarLinks = () => {
   
   return (
     <>
-      <NavItem><a className="navlinks" href="#employee" 
+      <NavItem><a className="navlinks" href="/" 
       style={{textDecoration:`none`}}>Home</a></NavItem>
       <NavItem ><a className="navlinks" href="#employee" 
       style={{textDecoration:`none`}}>Employers</a></NavItem>
