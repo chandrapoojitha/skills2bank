@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import './Form.css'
 import addToMailchimp from 'gatsby-plugin-mailchimp'
-import person from '../../assets/person.webp'
-import office from '../../assets/office.webp'
-import mail from '../../assets/mail.webp'
+import person from '../../assets/person.svg'
+import office from '../../assets/office.svg'
+import mail from '../../assets/mail.svg'
 
 const ContactForm =() => {
   const [Formstate, setFormState] = useState({

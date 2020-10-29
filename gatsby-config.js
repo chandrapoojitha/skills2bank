@@ -22,7 +22,7 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         display: `minimal-ui`,
-        icon: `src/assets/favicon.webp`, 
+        icon: `src/assets/favicon.png`, 
       },
     },
     {

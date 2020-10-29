@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import s2blogo from "../../assets/s2blogo.webp" 
+import s2blogo from "../../assets/s2blogo.svg" 
 
 const LogoImg = styled.div`
   margin-left:9%;

@@ -1,25 +1,25 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import image1 from '../assets/image1.webp'
-import part1image from '../assets/part1image.webp'
+import image1 from '../assets/image1.svg'
+import part1image from '../assets/part1image.png'
 import styles from '../components/index.module.css'
-import roots from '../assets/roots.webp'
-import part2_2img from '../assets/part2_2img.webp'
-import part2_3img from '../assets/part2_3img.webp'
-import part2_4img from '../assets/part2_4img.webp'
-import part2_5img from '../assets/part2_5img.webp'
-import part2_6img from '../assets/part2_6img.webp'
-import part4_1img from '../assets/part4_1img.webp'
-import part4_2img from '../assets/part4_2img.webp'
-import part4_3img from '../assets/part4_3img.webp'
-import employeeimg from '../assets/employeeimg.webp'
-import employabiltyimg from '../assets/employabilityimg.webp'
-import fb from '../assets/fb.webp'
-import insta from '../assets/insta.webp'
-import youtube from '../assets/youtube.webp'
-import linkedin from '../assets/linkedin.webp'
-import twitter from '../assets/twitter.webp'
+import roots from '../assets/roots.png'
+import part2_2img from '../assets/part2_2img.png'
+import part2_3img from '../assets/part2_3img.png'
+import part2_4img from '../assets/part2_4img.svg'
+import part2_5img from '../assets/part2_5img.svg'
+import part2_6img from '../assets/part2_6img.svg'
+import part4_1img from '../assets/part4_1img.png'
+import part4_2img from '../assets/part4_2img.png'
+import part4_3img from '../assets/part4_3img.png'
+import employeeimg from '../assets/employeeimg.png'
+import employabiltyimg from '../assets/employabilityimg.png'
+import fb from '../assets/fb.png'
+import insta from '../assets/insta.png'
+import youtube from '../assets/youtube.png'
+import linkedin from '../assets/linkedin.png'
+import twitter from '../assets/twitter.png'
 import ContactForm from '../components/Form/Form'
 
 const IndexPage = () => (
@@ -31,7 +31,7 @@ const IndexPage = () => (
           <h2>Be prepared, Be Confident Be Successful!</h2>
           <p>Discover your hidden talents and get the job/course you deserve.</p>
           <div className={styles.textimage}>
-            <img  src={part1image} alt="part1image" type="image/webp"/>
+            <img  src={part1image} alt="part1image"/>
           </div>
           <button className={styles.part1button}>
             <a href="https://play.google.com/store/apps/details?id=com.skill2bank&hl=en_GB" 
@@ -41,10 +41,10 @@ const IndexPage = () => (
       </div>
       <div className={styles.imagepart}>
         <div className={styles.image}>
-          <img src={image1} alt="image1" type="image/webp"/>
+          <img src={image1} alt="image1" />
         </div>
         <div className={styles.part1image}>
-          <img className="part1image" src={part1image} alt="part1image" type="image/webp"/>
+          <img className="part1image" src={part1image} alt="part1image" />
         </div>
       </div>
     </div>
