@@ -47,7 +47,7 @@ const HeaderLinks = () => {
   return (
     <>
       <HeaderItem to="/">Home</HeaderItem>
-      <HeaderItem to="/#employee">Employee</HeaderItem>
+      <HeaderItem to="/#employee" exact>Employee</HeaderItem>
       <HeaderItem to="/#employability">Employability Providers</HeaderItem>
       <HeaderItem to="/#aboutus">About Us</HeaderItem>
       <HeaderItem to="/#contact">Contact Us</HeaderItem>
