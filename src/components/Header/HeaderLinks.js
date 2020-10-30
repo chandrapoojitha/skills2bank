@@ -15,7 +15,7 @@ const HeaderItem = styled(Link)`
   font-size: 23.5px;
   font-weight: 600;
   line-height: 30px;
-  margin: 0 5px;
+  margin: 0 13px;
   opacity: 0.9;
 
   :after {
@@ -46,16 +46,11 @@ const HeaderItem = styled(Link)`
 const HeaderLinks = () => {
   return (
     <>
-      <HeaderItem><a className="headerlinks" href="/" 
-      style={{textDecoration:`none`}}>Home</a></HeaderItem>
-      <HeaderItem><a className="headerlinks" href="/#employee" 
-      style={{textDecoration:`none`}}>Employee</a></HeaderItem>
-      <HeaderItem><a className="headerlinks" href="/#employability" 
-      style={{textDecoration:`none`}}>Employability Providers</a></HeaderItem>
-      <HeaderItem><a className="headerlinks" href="/#aboutus" 
-      style={{textDecoration:`none`}}>About Us</a></HeaderItem>
-      <HeaderItem><a className="headerlinks" href="/#contact" 
-      style={{textDecoration:`none`}}>Contact Us</a></HeaderItem>
+      <HeaderItem to="/">Home</HeaderItem>
+      <HeaderItem to="/#employee">Employee</HeaderItem>
+      <HeaderItem to="/#employability">Employability Providers</HeaderItem>
+      <HeaderItem to="/#aboutus">About Us</HeaderItem>
+      <HeaderItem to="/#contact">Contact Us</HeaderItem>
       
     </>
   )
