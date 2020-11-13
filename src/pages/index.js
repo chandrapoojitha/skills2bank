@@ -22,7 +22,8 @@ import linkedin from '../assets/linkedin.png'
 import twitter from '../assets/twitter.png'
 import ContactForm from '../components/Form/Form'
 
-const IndexPage = () => (
+const IndexPage = () => {
+  return(
   <Layout>
     <SEO title="Skills2Bank - Be prepared, Be confident, Be successful! " />
     <div className={styles.part1}>
@@ -303,7 +304,8 @@ const IndexPage = () => (
       <ContactForm />
       </div>
     </div>
+    <button id="scroll-btn" className={styles.sidebar_btns} title="Scroll to top"></button>
   </Layout>
-)
+)};
 
 export default IndexPage
