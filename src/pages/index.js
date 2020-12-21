@@ -20,6 +20,8 @@ import insta from '../assets/insta.png'
 import youtube from '../assets/youtube.png'
 import linkedin from '../assets/linkedin.png'
 import twitter from '../assets/twitter.png'
+import google_play from '../assets/google_play.png'
+import playstore from '../assets/playstore.png'
 import ContactForm from '../components/Form/Form'
 
 const IndexPage = () => {
@@ -34,10 +36,16 @@ const IndexPage = () => {
           <div className={styles.textimage}>
             <img  src={part1image} alt="part1image"/>
           </div>
-          <button className={styles.part1button}>
+          <div className={styles.buttons}>
+            
             <a href="https://play.google.com/store/apps/details?id=com.skill2bank&hl=en_GB" 
             target="_blank">
-            Download Now </a></button>
+            <img src={google_play} alt="googleplay"/></a>
+            
+            <a href=" https://apps.apple.com/us/app/skills2bank/id1523315759" 
+            target="_blank">
+            <img src={playstore} alt="playstore" /></a>
+          </div>
         </div>
       </div>
       <div className={styles.imagepart}>

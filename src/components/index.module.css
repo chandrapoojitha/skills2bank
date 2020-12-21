@@ -60,9 +60,15 @@
     color: #002139;
     font: normal normal normal 22px/40px 'poppins';
 }
+.buttons{
+    width: 600px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left:-6%;
+}
 .part1button{
     width:232px;
-    height:50px;
+    height:60px;
     border-radius:47px;
     background:#14AEB8;
     text-align: center;
@@ -78,6 +84,7 @@
     transform: translateZ(0);
     -webkit-transition: color 1000ms;
     transition: color 1000ms;
+    margin-right:15px;
 } 
 .part1button a{
     text-decoration:none;
@@ -493,6 +500,11 @@
         width:80%;
         height:100%;
     }
+    .buttons{
+        display:grid;
+        width:100%;
+        margin-left:0;
+    }
     .part2{
         margin-top:90px;
     }
@@ -734,6 +746,11 @@
     .imagepart{
         display:none;
     }
+    .buttons{
+        width:100%;
+        display:block;
+        margin-left:0;
+    }
     .part1text{
         width: 100%;
         float: left;
@@ -821,5 +838,9 @@
         opacity: 1;
         width: 435px;
         font: normal normal bold 36px/56px 'futura-pt';
+    }
+    .buttons{
+        margin-top:14%;
+        margin-left:-6%;
     }
 }
