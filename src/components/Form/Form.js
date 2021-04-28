@@ -22,7 +22,6 @@ const ContactForm =() => {
 
   const handleChange = (e) => {
     setFormState({ ...Formstate, [e.target.name]: e.target.value });
-
   }
 
   const handleSubmit = async (e) => {
@@ -55,8 +54,6 @@ const ContactForm =() => {
     })
     console.log('Form submitted');
   }
-
-  
 
   return(
     <div className="contact">

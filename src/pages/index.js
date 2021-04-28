@@ -34,7 +34,7 @@ const IndexPage = () => {
           <h2>Be Prepared, Be Confident Be Successful!</h2>
           <p>Discover your hidden talents and get the job/course you deserve.</p>
           <div className={styles.textimage}>
-            <img  src={part1image} alt="part1image"/>
+            <img src={part1image} alt="part1image"/>
           </div>
           <div className={styles.buttons}>
             

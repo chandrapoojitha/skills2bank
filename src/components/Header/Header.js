@@ -4,7 +4,6 @@ import HeaderLinks from "./HeaderLinks"
 import Logo from "../Logo/Logo"
 import './Header.css'
 
-
 const NavigationHeader = styled.nav`
   height: 100px;
   width:100%;
