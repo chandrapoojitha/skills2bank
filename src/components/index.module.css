@@ -4,6 +4,9 @@
     height:100%;
     display:flex;
 }
+.CookieDeclaration{
+    display: none !important;
+}
 .imagepart{
     width:80%;
     float:right;
