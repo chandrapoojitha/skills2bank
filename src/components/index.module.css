@@ -1,4 +1,7 @@
 @import url("https://use.typekit.net/eug8bqj.css");
+.CookieDeclaration{
+    display: none !important;
+}
 .part1{
     width:100%;
     height:100%;
