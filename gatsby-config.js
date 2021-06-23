@@ -22,13 +22,31 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `skills2bank`,
+        short_name: `skills2bank`,
         start_url: `/`,
-        display: `minimal-ui`,
+        display: `standalone`,
+        display_override: [`window-control-overlay`, `minimal-ui`],
         icon: `src/assets/favicon.png`, 
+        theme_color:`#14AEB8`,
+        background_color:`#14AEB8`,
+        icons: [
+          {
+            src: `src/assets/favicon.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+            purpose: `any maskable`
+          },
+          {
+            src: `src/assets/favicon.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+            purpose: `any maskable`
+          },
+        ]
       },
     },
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-mailchimp`,
       options: {
