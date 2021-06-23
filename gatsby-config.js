@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `skills2bank`,
+        name: `gatsby-starter-default`,
         short_name: `skills2bank`,
         start_url: `/`,
         display: `standalone`,
@@ -53,6 +53,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    
   ]
 }
