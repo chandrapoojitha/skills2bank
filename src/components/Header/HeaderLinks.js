@@ -51,7 +51,6 @@ const HeaderLinks = () => {
       <HeaderItem to="/#employability">Employability Providers</HeaderItem>
       <HeaderItem to="/#aboutus">About Us</HeaderItem>
       <HeaderItem to="/#contact">Contact Us</HeaderItem>
-      
     </>
   )
 }

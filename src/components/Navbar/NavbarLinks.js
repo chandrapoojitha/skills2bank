@@ -44,16 +44,11 @@ const NavbarLinks = () => {
   
   return (
     <>
-      <NavItem to="/"><a className="navlinks" href="/" 
-      style={{textDecoration:`none`}}>Home</a></NavItem>
-      <NavItem to="/#employee"><a className="navlinks" href="#employee" 
-      style={{textDecoration:`none`}}>Employers</a></NavItem>
-      <NavItem to="/#employability"><a href="/#employability" className="navlinks"
-      style={{textDecoration:`none`}}>Employability Providers</a></NavItem>
-      <NavItem to="/#aboutus"><a href="#aboutus" className="navlinks"
-      style={{textDecoration:`none`}}>About Us</a></NavItem>
-      <NavItem to="/#contact"><a href="#contact" className="navlinks"
-      style={{textDecoration:`none`}}>Contact Us</a></NavItem>
+      <NavItem to="/">Home</NavItem>
+      <NavItem to="/#employee">Employers</NavItem>
+      <NavItem to="/#employability">Employability Providers</NavItem>
+      <NavItem to="#aboutus">About Us</NavItem>
+      <NavItem to="#contact">Contact Us</NavItem>
       
     </>
   )
