@@ -33,9 +33,9 @@ module.exports = {
         start_url: `/`,
         display: `standalone`,
         display_override: [`window-control-overlay`, `minimal-ui`],
-        icon: `src/assets/favicon.png`, 
         theme_color:`#14AEB8`,
         background_color:`#14AEB8`,
+        icon: `src/assets/favicon.png`, 
         icons: [
           {
             src: `src/assets/favicon.png`,
