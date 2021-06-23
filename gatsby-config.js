@@ -36,20 +36,6 @@ module.exports = {
         theme_color:`#14AEB8`,
         background_color:`#14AEB8`,
         icon: `src/assets/favicon.png`, 
-        icons: [
-          {
-            src: `src/assets/favicon.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-            purpose: `any maskable`
-          },
-          {
-            src: `src/assets/favicon.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-            purpose: `any maskable`
-          },
-        ]
       },
     },
     `gatsby-plugin-offline`,
