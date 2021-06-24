@@ -160,7 +160,7 @@ const IndexPage = () => {
         </div>
         <div className={styles.rootsinfo}>
           <div className={styles.part4_1img}>
-            <img src={part4_1img} alt="part4_1img" />
+            <img width="524" height="498" src={part4_1img} alt="part4_1img" />
           </div>
         </div>
       </div>
@@ -186,7 +186,7 @@ const IndexPage = () => {
         </div>
         <div className={styles.rootsinfo}>
           <div className={styles.part4_1img}>
-            <img src={part4_3img} alt="part4_3img" />
+            <img width="526" height="498" src={part4_3img} alt="part4_3img" />
           </div>
         </div>
       </div>
