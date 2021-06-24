@@ -612,11 +612,11 @@
         width:158px;
         height:301px;
     }
-    .part2_2img{
+    .skillsimg .part2_2img{
         width:287px;
         height:301px;
     }
-    .part2_4img{
+    .skillsimg .part2_4img{
         width:235px;
         height:301px;
     }
@@ -635,7 +635,8 @@
         margin-top: -716px;
     }
     .part4_1img img{
-        width:86%;
+        width: 315px;
+        height: 301px;
     }
     .part4_2img{
         width:282px;
