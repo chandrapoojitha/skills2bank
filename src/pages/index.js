@@ -39,11 +39,11 @@ const IndexPage = () => {
           <div className={styles.buttons}>
             
             <a href="https://play.google.com/store/apps/details?id=com.skill2bank&hl=en_GB" 
-            target="_blank">
+            target="_blank" rel="noreferrer">
             <img src={google_play} alt="googleplay"/></a>
             
             <a href=" https://apps.apple.com/us/app/skills2bank/id1523315759" 
-            target="_blank">
+            target="_blank" rel="noreferrer">
             <img src={playstore} alt="playstore" /></a>
           </div>
         </div>

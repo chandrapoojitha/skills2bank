@@ -34,7 +34,7 @@
     z-index: 2;
 }
 .part1image img{
-    width: 79%;
+    width: 231px;
     height: 76%;
     margin-left: 46%;
     margin-top: 8%;
@@ -865,5 +865,11 @@
     .buttons{
         margin-top:14%;
         margin-left:-6%;
+    }
+}
+@media screen and (min-width:1920px){
+    .part1image img{
+        width:617px;
+        height:617px;
     }
 }
