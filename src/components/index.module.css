@@ -1,6 +1,6 @@
 @import url("https://use.typekit.net/eug8bqj.css");
 .CookieDeclaration{
-    display: none!important;
+    display: none !important;
 }
 .part1{
     width:100%;
@@ -599,7 +599,8 @@
         margin-top: -743px;
     }
     .part2_1img img{
-        height:300px;
+        width:214px;
+        height:380px;
     }
     .part2_6img{
         width:158px;
@@ -665,8 +666,8 @@
         width:100%;
     }
     .employeeimg{
-        width: 290px;
-        height: 360px;
+        width: 309px;
+        height: 380px;
         align-items: center;
         margin-left: 0;
         margin-top: -7px;
@@ -718,7 +719,7 @@
         font-family: 'poppins';
         font-size: 14px;
     }
-    .part2_5img{
+    .rootsimg .part2_5img{
         width:290px;
         height:301px;
     }
