@@ -280,7 +280,7 @@
     margin-top:80px;
 }
 .part4_1img{
-    width:62%;
+    /* width:62%; */
     align-items: center;
     float:right;
     margin-left:7%;
@@ -331,7 +331,7 @@
     display:flex;
 }
 .employeeimg{
-    width:90%;
+    width:92.9%;
     height:100%;
     align-items: center;
     float:right;
