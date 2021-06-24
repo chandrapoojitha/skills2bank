@@ -27,7 +27,7 @@ import ContactForm from '../components/Form/Form'
 const IndexPage = () => {
   return(
   <Layout>
-    <SEO title="Skills2Bank - Be prepared, Be confident, Be successful! " />
+    <SEO title="Skills2Bank - Be prepared, Be confident, Be successful!"/>
     <div className={styles.part1}>
       <div className={styles.part1text}>
         <div className={styles.text}>
