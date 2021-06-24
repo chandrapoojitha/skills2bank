@@ -1,7 +1,4 @@
 @import url("https://use.typekit.net/eug8bqj.css");
-.CookieDeclaration p{
-    display: none !important;
-}
 .part1{
     width:100%;
     height:100%;
@@ -9,6 +6,15 @@
 }
 .CookieDeclaration{
     display: none !important;
+}
+.CookieDeclarationType{
+    display:none !important;
+}
+.CookieDeclarationLastUpdate{
+    display:none !important;
+}
+.CookieDeclarationDailogText{
+    display: none!important;
 }
 .imagepart{
     width:80%;
