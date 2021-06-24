@@ -598,6 +598,18 @@
         margin-right: -43%;
         margin-top: -743px;
     }
+    .part2_6img{
+        width:158px;
+        height:301px;
+    }
+    .part2_2img{
+        width:287px;
+        height:301px;
+    }
+    .part2_4img{
+        width:235px;
+        height:301px;
+    }
     .part3text{
         padding-top:73px;
     }
@@ -606,7 +618,7 @@
         padding-left:0;
     }
     .part4_1img{
-        width: 100%;
+        width: 366px;
         height: 350px;
         align-items: center;
         margin-left: 17%;
@@ -616,7 +628,8 @@
         width:86%;
     }
     .part4_2img{
-        width:70%;
+        width:282px;
+        height:266px;
         margin-left:16%
     }
     .part5text p{
@@ -649,8 +662,8 @@
         width:100%;
     }
     .employeeimg{
-        width: 100%;
-        height: 100%;
+        width: 395px;
+        height: 490px;
         align-items: center;
         margin-left: 0;
         margin-top: -7px;
@@ -701,6 +714,10 @@
         margin-top: -12px;
         font-family: 'poppins';
         font-size: 14px;
+    }
+    .part2_5img{
+        width:290px;
+        height:301px;
     }
 }
 @media screen and (max-width:384px){

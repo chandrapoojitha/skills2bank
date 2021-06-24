@@ -77,7 +77,7 @@ const IndexPage = () => {
         <div className={styles.skills}>
           <div className={styles.skillsinfo}>
             <div className={styles.skillsimg}>
-              <img src={part2_2img} alt="part2_2img" />
+              <img className={styles.part2_2img} src={part2_2img} alt="part2_2img" />
             </div>
           </div>
           <div className={styles.skillstext}>
@@ -103,7 +103,7 @@ const IndexPage = () => {
         <div className={styles.skills}>
           <div className={styles.skillsinfo}>
             <div className={styles.skillsimg}>
-              <img src={part2_4img} alt="part2_4img" />
+              <img className={styles.part2_4img} src={part2_4img} alt="part2_4img" />
             </div>
           </div>
           <div className={styles.skillstext}>
@@ -120,14 +120,14 @@ const IndexPage = () => {
           </div>
           <div className={styles.rootsinfo}>
             <div className={styles.rootsimg}>
-              <img src={part2_5img} alt="part2_5img" />
+              <img className={styles.part2_5img} src={part2_5img} alt="part2_5img" />
             </div>
           </div>
         </div>
         <div className={styles.skills}>
           <div className={styles.skillsinfo}>
             <div className={styles.skillsimg}>
-              <img src={part2_6img} alt="part2_6img" />
+              <img className={styles.part2_6img} partsrc={part2_6img} alt="part2_6img" />
             </div>
           </div>
           <div className={styles.skillstext}>
