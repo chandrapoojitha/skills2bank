@@ -1,6 +1,6 @@
 @import url("https://use.typekit.net/eug8bqj.css");
 .CookieDeclaration{
-    display: none;
+    display: none!important;
 }
 .part1{
     width:100%;
@@ -597,6 +597,9 @@
         margin-left: 35%;
         margin-right: -43%;
         margin-top: -743px;
+    }
+    .part2_1img img{
+        height:300px;
     }
     .part2_6img{
         width:158px;

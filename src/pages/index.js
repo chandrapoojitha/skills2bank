@@ -9,7 +9,7 @@ import part2_2img from '../assets/part2_2img.webp'
 import part2_3img from '../assets/part2_3img.webp'
 import part2_4img from '../assets/part2_4img.webp'
 import part2_5img from '../assets/part2_5img.webp'
-import part2_6img from '../assets/part2_6img.webp'
+import part2_6img from '../assets/part2_6img.svg'
 import part4_1img from '../assets/part4_1img.webp'
 import part4_2img from '../assets/part4_2img.webp'
 import part4_3img from '../assets/part4_3img.webp'
@@ -127,7 +127,7 @@ const IndexPage = () => {
         <div className={styles.skills}>
           <div className={styles.skillsinfo}>
             <div className={styles.skillsimg}>
-              <img className={styles.part2_6img} partsrc={part2_6img} alt="part2_6img" />
+              <img className={styles.part2_6img} src={part2_6img} alt="part2_6img" />
             </div>
           </div>
           <div className={styles.skillstext}>
