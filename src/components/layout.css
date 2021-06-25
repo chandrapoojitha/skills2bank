@@ -16,6 +16,9 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+.CookieDeclaration{
+  display:none !important;
+}
 article,
 aside,
 details,
