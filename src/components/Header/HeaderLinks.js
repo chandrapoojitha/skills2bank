@@ -47,10 +47,10 @@ const HeaderLinks = () => {
   return (
     <>
       <HeaderItem to="/">Home</HeaderItem>
-      <HeaderItem to="/#employee" exact>Employee</HeaderItem>
-      <HeaderItem to="/#employability">Employability Providers</HeaderItem>
-      <HeaderItem to="/#aboutus">About Us</HeaderItem>
-      <HeaderItem to="/#contact">Contact Us</HeaderItem>
+      <HeaderItem onClick="window.location='#employee'" exact>Employee</HeaderItem>
+      <HeaderItem onClick="window.location='#employability'">Employability Providers</HeaderItem>
+      <HeaderItem onClick="window.location='#aboutus'">About Us</HeaderItem>
+      <HeaderItem onClick="window.location='#contact'">Contact Us</HeaderItem>
     </>
   )
 }
