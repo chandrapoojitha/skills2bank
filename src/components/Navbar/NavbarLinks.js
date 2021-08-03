@@ -45,10 +45,10 @@ const NavbarLinks = () => {
   return (
     <>
       <NavItem to="/">Home</NavItem>
-      <NavItem onClick="window.location='#employee'" >Employers</NavItem>
-      <NavItem onClick="window.location='#employability'" >Employability Providers</NavItem>
-      <NavItem onClick="window.location='#aboutus'" >About Us</NavItem>
-      <NavItem onClick="window.location='#contact'" >Contact Us</NavItem>
+      <NavItem to="/#employee">Employers</NavItem>
+      <NavItem to="/#employability">Employability Providers</NavItem>
+      <NavItem to="#aboutus">About Us</NavItem>
+      <NavItem to="#contact">Contact Us</NavItem>
       
     </>
   )
